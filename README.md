@@ -1,4 +1,4 @@
-# Open-Ended-VQA
+# Inference-Open-Ended-VQA
 **Background**  
 I recently had the opportunity to work on open-ended visual question answering as part of an undergraduate research course, and I got to design and implement some neat new architectures.
 At the end of the semester, I had some compute remaining in Colab, and I used it to train a super portable, lightweight visual question answerer using only Hugging Face and PyTorch transformer implementations.
