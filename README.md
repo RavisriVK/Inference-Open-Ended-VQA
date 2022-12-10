@@ -7,7 +7,7 @@ I might release the training scripts and original implementations + models if th
 
 The models provided here are trained using an approach developed in the project to leverage image captioning datasets for downstream vision language tasks like visual question answering.
 The architecture we use leverages the *mapping transformer* idea first explored (to best of my knowledge) in ClipCap to generate vision and language encapsulating prefixes for GPT.
-We use FLAVA to generate multimodal encodings (patch + token encodings) which are provided to a transformer encoder along with a series of learned constants; the transformer output corresponding to the learned constants is uses as the GPT prefix.
+We use FLAVA to generate multimodal encodings (patch + token encodings) which are provided to a transformer encoder along with a series of learned constants; the transformer output corresponding to the learned constants is used as the GPT prefix.
 Please take a look at the presentation and paper for more details!
 
 ## Usage
